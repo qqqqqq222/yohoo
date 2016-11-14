@@ -1,0 +1,221 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  height: 20px;
+  font-size: 12px;
+  font-family: 微软雅黑;
+}
+.top #logo {
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  height: 50px;
+  margin-top: -15px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.top #logo span {
+  font-size: 14px;
+  color: black;
+}
+.top #logo1 {
+  background: #F8F8F8;
+  width: 200px;
+  display: none;
+}
+.top #logo1 ul {
+  list-style: none;
+}
+.top #logo1 ul a {
+  color: #9196A0;
+  font-size: 14px;
+  margin-left: 20px;
+  padding-top: 10px;
+  display: block;
+  font-weight: bold;
+}
+.top .details .first a {
+  display: inline-block;
+}
+.top #phone2 {
+  display: none;
+  margin-left: 85%;
+  background: #F8F8F8;
+  width: 230px;
+  height: 300px;
+  margin-top: 50px;
+  font-family: 微软雅黑;
+}
+.top #phone2 img {
+  padding-top: 17px;
+  width: 70%;
+  margin-left: 15%;
+}
+.top #phone2 p {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.top #phone2 .p2 {
+  margin-top: -5px;
+}
+.top #phone2 a {
+  font-size: 15px;
+  color: #979797;
+  display: block;
+  margin-top: 10px;
+}
+.header .left {
+  list-style: none;
+}
+.header .left a {
+  float: left;
+  color: #1F0017;
+  font-weight: bold;
+  text-align: center;
+  padding: 2% 5% 2% 5%;
+}
+.header .left a span {
+  display: block;
+  color: #8E8E8E;
+  font-size: 12px;
+}
+.header .left :hover {
+  text-decoration: none;
+}
+.font {
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.font a {
+  font-size: 35px;
+  font-weight: bolder;
+  color: #000;
+  font-family: 微软雅黑;
+  text-decoration: none;
+}
+.right .search {
+  width: 90%;
+  height: 30px;
+  background: #000;
+}
+.right .search input {
+  width: 80%;
+  height: 30px;
+  position: relative;
+  left: -5%;
+}
+.all {
+  list-style: none;
+  height: 35px;
+  background: #000;
+}
+.all a {
+  float: left;
+  color: white;
+  margin-left: 7%;
+  line-height: 35px;
+  font-size: 13px;
+}
+.clear:after {
+  overflow: hidden;
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+#wrap {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+#inner {
+  width: 1000%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#inner img {
+  width: 10%;
+  float: left;
+}
+.paganation {
+  width: 100%;
+  position: absolute;
+  top: 650px;
+}
+.paganation span img {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 700px;
+  border: 1px solid red;
+}
+.paganation .selected {
+  background: grey;
+  opacity: 1;
+  color: white;
+}
+.arrow {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 180px;
+  margin-left: 5px;
+}
+.arrow span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: -17px;
+  color: gainsboro;
+  font-size: 60px;
+}
+#right {
+  right: 0;
+}
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.hot {
+  border: 2px solid black;
+  position: relative;
+  top: 60px;
+  width: 300px;
+  margin-left: 35%;
+  height: 33px;
+}
+.hot p {
+  line-height: 33px;
+  text-align: center;
+}
+.shop a:hover {
+  background: gainsboro;
+  opacity: 0.9;
+}
+.shop2 img {
+  margin-left: -2px;
+}
+.style1 a {
+  margin-top: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+.style1 span {
+  font-size: 40px;
+  color: #000;
+  margin-left: 40px;
+  padding-top: 40px;
+}
+.style2 {
+  display: none;
+}
